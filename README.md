@@ -75,7 +75,7 @@ After running the above code files, following files will be generated:
 ## 🧪 Setup Instructions
 
 1. **Clone the repository**
-- git clone https://github.com/yourusername/Sign-Language-Detection-System.git
+- git clone https://github.com/Shrestha04/Sign-Language-Detection-System.git
 - cd Sign-Language-Detection-System
 
 2. **Install Dependencies**
