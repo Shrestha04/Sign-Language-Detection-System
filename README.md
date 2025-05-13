@@ -30,7 +30,6 @@ This project is a real-time Sign Language Detection System that uses a webcam to
 ## 📁 Project Structure
 
 Sign-Language-Detection-System/
-- │
 - ├── collect_imgs.py *# Script to collect gesture images from webcam*
 - ├── create_dataset.py *# Extract landmarks from images and create dataset*
 - ├── train_classifier.py *# Train a classifier using the processed dataset*
