@@ -30,16 +30,16 @@ This project is a real-time Sign Language Detection System that uses a webcam to
 ## 📁 Project Structure
 
 Sign-Language-Detection-System/
-- ├── collect_imgs.py *# Script to collect gesture images from webcam*
-- ├── create_dataset.py *# Extract landmarks from images and create dataset*
-- ├── train_classifier.py *# Train a classifier using the processed dataset*
-- ├── inference_classifier.py *# Real-time gesture recognition using webcam*
-- ├── check_accuracy.py *# Real-time prediction with accuracy calculation*
+- ├── collect_imgs.py  (# Script to collect gesture images from webcam)
+- ├── create_dataset.py  (# Extract landmarks from images and create dataset)
+- ├── train_classifier.py  (# Train a classifier using the processed dataset)
+- ├── inference_classifier.py  (# Real-time gesture recognition using webcam)
+- ├── check_accuracy.py  (# Real-time prediction with accuracy calculation)
 
 After running the above code files, following files will be generated:
-- ├── data.pickle # Pickled file with landmark data and labels
-- ├── model.p # Trained machine learning model
-- └── data/ # Folder containing gesture images (organized by class)
+- ├── data.pickle  (# Pickled file with landmark data and labels)
+- ├── model.p  (# Trained machine learning model)
+- └── data/  (# Folder containing gesture images (organized by class))
 
 ---
 
@@ -75,18 +75,18 @@ After running the above code files, following files will be generated:
 ## 🧪 Setup Instructions
 
 1. **Clone the repository**
-git clone https://github.com/yourusername/Sign-Language-Detection-System.git
-cd Sign-Language-Detection-System
+- git clone https://github.com/yourusername/Sign-Language-Detection-System.git
+- cd Sign-Language-Detection-System
 
 2. **Install Dependencies**
-pip install opencv-python mediapipe scikit-learn numpy matplotlib
+- pip install opencv-python mediapipe scikit-learn numpy matplotlib
 
 3. **Run Scripts in Order**
-Step 1: Collect Gesture Images - python collect_imgs.py
-Step 2: Create Dataset - python create_dataset.py
-Step 3: Train the Classifier - python train_classifier.py
-Step 4: Run Real-time Inference - python inference_classifier.py
-Optional: Evaluate Accuracy in Real-Time - python check_accuracy.py
+- Step 1: Collect Gesture Images - python collect_imgs.py
+- Step 2: Create Dataset - python create_dataset.py
+- Step 3: Train the Classifier - python train_classifier.py
+- Step 4: Run Real-time Inference - python inference_classifier.py
+- Optional: Evaluate Accuracy in Real-Time - python check_accuracy.py
 
 --- 
 
